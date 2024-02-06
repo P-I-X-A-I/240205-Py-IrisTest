@@ -70,4 +70,5 @@ print("test data accuracy : {}".format(np.mean(y_pred == y_test)))
 # check accuracy (use KNeighborClassifier.score)
 print("test data accuracy(by knn) : {}".format(knn.score(X_test, y_test)))
 
+
 print("Iris Test")
